@@ -2,34 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
+  <main>
+    <article class="card">
+      <img src="images/drawers.jpg" alt="Green chest of drawers">
+      <div class="card__content">
+        <h1 class="card__titular">Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home</h1>
+        <p class="card__description">
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
+      </div>
+      <footer class="card__footer">
+        <div class="card__details-wrapper">
+          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" class="card__image">
+          <div class="card__details">
+            <p class="card__name">Michelle Appleton</p>
+            <p class="card__date">
+              <time datetime="2020-06-28">28 Jun 2020</time>
+            </p>
+          </div>
+        </div>
+        <button type="button" id="share-btn" class="card__share-btn"></button>
+      </footer>
+    </article>
+  </main>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
 
-  Michelle Appleton
-  28 Jun 2020
+
+
+
 
   Share
-  
+
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </footer>
 </body>
