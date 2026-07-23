@@ -122,6 +122,12 @@ main {
   clip-path: circle();
   border: none;
   z-index: 2;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+}
+
+.card__share-btn:hover {
+  opacity: 0.73;
 }
 
 .card__share-panel {
