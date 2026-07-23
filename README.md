@@ -1,6 +1,6 @@
-# 💬 Frontend Mentor - Solución del reto Testimonials grid section
+# 📰 Frontend Mentor - Solución del reto Article preview component
 
-Esta es mi solución al reto [Testimonials grid section](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
+Esta es mi solución al reto [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
 ## Tabla de contenidos
 
