@@ -37,10 +37,17 @@
             </p>
           </div>
         </div>
-        <button type="button" id="share-btn" class="card__share-btn">
-          <img src="images/icon-share.svg" alt="Share article" aria-hidden="true" class="card__share-image">
+        <button type="button" id="share-btn" class="card__share-btn" aria-label="Share article" aria-expanded="false">
+          <img src="images/icon-share.svg" alt="" aria-hidden="true" class="card__share-image">
         </button>
-        <div id="share-panel" class="card__share-panel"></div>
+        <div id="share-panel" class="card__share-panel">
+          <span class="card__share-title" aria-hidden="true">SHARE</span>
+          <ul class="card__social-list">
+            <li><a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a></li>
+          </ul>
+        </div>
       </footer>
     </article>
   </main>
