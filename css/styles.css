@@ -170,12 +170,11 @@ main {
     gap: 1rem;
     grid-column: 2;
     padding-inline: 2.5rem;
-    padding-block-end: 0;
   }
 
   .card__footer {
     grid-column: 2;
     padding-inline: 2.5rem;
-    padding-block-start: 1.5rem;
+    padding-block-start: 0;
   }
 }
