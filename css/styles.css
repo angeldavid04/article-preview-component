@@ -113,13 +113,11 @@ main {
 
 .card__share-btn {
   background-color: var(--lightGrayishBlue);
-  padding-inline: 0.6rem;
-  padding-block: 0.6rem;
   display: grid;
   place-content: center;
-  width: 2.5rem;
-  height: auto;
-  clip-path: circle();
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
   border: none;
   z-index: 2;
   cursor: pointer;
@@ -128,6 +126,10 @@ main {
 
 .card__share-btn:hover {
   opacity: 0.73;
+}
+
+.card__share-image {
+  width: 1.1rem;
 }
 
 .card__share-panel {
