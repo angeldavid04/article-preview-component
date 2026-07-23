@@ -6,13 +6,17 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
   <main>
     <article class="card">
-      <img src="images/drawers.jpg" alt="Green chest of drawers">
+      <img src="images/drawers.jpg" alt="Green chest of drawers" class="card__image">
       <div class="card__content">
         <h1 class="card__titular">Shift the overall look and feel by adding these wonderful
           touches to furniture in your home</h1>
@@ -24,7 +28,7 @@
       </div>
       <footer class="card__footer">
         <div class="card__details-wrapper">
-          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" class="card__image">
+          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" class="card__person-image">
           <div class="card__details">
             <p class="card__name">Michelle Appleton</p>
             <p class="card__date">
@@ -32,22 +36,17 @@
             </p>
           </div>
         </div>
-        <button type="button" id="share-btn" class="card__share-btn"></button>
+        <button type="button" id="share-btn" class="card__share-btn">
+          <img src="images/icon-share.svg" alt="Share article" aria-hidden="true">
+        </button>
+        <div class="card__share-panel"></div>
       </footer>
     </article>
   </main>
 
-
-
-
-
-
-
-  Share
-
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Angel López</a>.
   </footer>
 </body>
 </html>
