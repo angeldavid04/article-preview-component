@@ -64,10 +64,11 @@ main {
 
 .card__content {
   padding-block-start: 2.25rem;
+  padding-block-end: 1.25rem;
   padding-inline: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .card__titular {
@@ -92,7 +93,7 @@ main {
   align-items: center;
   position: relative;
   padding-inline: 2rem;
-  padding-block: 2rem;
+  padding-block: 1rem;
 }
 
 .card__details-wrapper {
